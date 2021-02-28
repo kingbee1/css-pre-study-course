@@ -1,2 +1,103 @@
 @import url(https://fonts.googleapis.com/css?family=Chelsea+Market);
 @import url(https://fonts.googleapis.com/css?family=Gamja+Flower);
+header{
+	background-color: #e4572e;
+	font-family: Chelsea Market;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.btn button{
+	padding: 10px 380px;
+	margin-left: 385px;
+	z-index: 1;
+	width: 54%;
+	position:relative;
+	background-color: black;
+	color: white;
+	box-shadow: 3px 3px #e4572e;
+	justify-content: center;
+	margin-bottom: 70px;
+	font-family: Gamja Flower;
+	font-size: 1rem;
+}
+
+.box-1 {	
+	width: 65%;
+	margin: auto;
+	font-family: Gamja Flower;
+	border: solid 4px #050401;
+	box-shadow: 3px 3px #e4572e;
+	padding-top: 0px;
+	padding-bottom: 70px;
+}
+
+.box-1 h2{
+	top: 275px;
+	position: absolute;
+	padding-top: 27px;
+}
+
+.box-1 p{
+	top: 100px;
+	padding-top: 2px;
+}
+
+.box-1 p img {
+	float: right;
+/*	left: 752px;*/
+	/*position: relative;*/
+}
+
+.box-2 {
+	width: 65%;
+	margin: auto;
+	font-family: Gamja Flower;
+	border: solid 4px #050401;
+	margin-top: 5px;
+	box-shadow: 3px 3px #e4572e;
+	padding-bottom: 70px;
+}
+
+.box-2 p img {
+	right: 5px;
+	bottom: 11px;
+	float: right;
+	position: relative;
+}
+
+.box-2 p{
+
+}
+
+footer {
+	width: 20%;
+	margin: auto;
+	font-family: Gamja Flower;
+}
+
+footer h2 {
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer p {
+	margin-top: 0px;
+}
+
+.form {
+	display: flex;
+	
+}
+
+.form input {
+	padding: 3px;
+	width: 97%;
+	box-shadow: 2px 2px #e4572e;
+}
+
+.signature {
+	width: 77%;
+	margin: auto;
+}
